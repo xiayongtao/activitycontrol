@@ -1,0 +1,30 @@
+image:
+ root: /
+ path: /images
+ size: 960x540
+ begintime: 3
+ type: jpg
+
+ffmpeg:
+ path: /win/
+ defaultpathEnable: true
+ size: 100
+ debug: true
+ issyspath: true
+
+record:
+ path: /videos
+ root: D:/
+ duration: 3600
+ type: mp4
+
+
+
+
+
+
+
+
+
+
+

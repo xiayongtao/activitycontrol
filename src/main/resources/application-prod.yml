@@ -1,0 +1,29 @@
+image:
+ root: /home/
+ path: /images
+ size: 960x540
+ begintime: 3
+ type: jpg
+
+ffmpeg:
+ path: /linux/
+ defaultpathEnable: true
+ size: 100
+ debug: true
+ issyspath: false
+
+record:
+ path: /videos
+ root: /
+ duration: 3600
+ type: mp4
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,245 @@
+2018-06-14 19:22:45.878 [ main ] - [ INFO  ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 50 ] - Starting ActivitycontrolApplication on xiayt with PID 13760 (F:\LiveManger\trunk\activitycontrol\target\classes started by xiayo in F:\LiveManger\trunk\activitycontrol)
+2018-06-14 19:22:45.881 [ main ] - [ DEBUG ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 53 ] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-14 19:22:45.883 [ main ] - [ INFO  ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 659 ] - No active profile set, falling back to default profiles: default
+2018-06-14 19:22:47.429 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:22:47.438 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-06-14 19:22:47.438 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-14 19:22:47.442 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;D:\java_tools\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Users\xiayo\AppData\Local\Microsoft\WindowsApps;;D:\js_tools\Microsoft VS Code\bin;C:\Users\xiayo\AppData\Roaming\npm;.]
+2018-06-14 19:22:47.560 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-06-14 19:22:48.987 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 80 ] - Context refreshed
+2018-06-14 19:22:49.008 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 83 ] - Found {0} custom documentation plugin(s)
+2018-06-14 19:22:49.016 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 53 ] - Scanning for api listing references
+2018-06-14 19:22:49.022 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:22:49.025 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: getStream belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:22:49.026 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:22:49.027 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: Stop belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:22:49.027 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:22:49.027 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: Start belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:22:49.028 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:22:49.028 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: getStreams belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:22:49.032 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 84 ] - Created resource listing Path: /default/直播controller Description: 直播controller Position: 0
+2018-06-14 19:22:49.055 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.String(false)
+2018-06-14 19:22:49.055 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.String(false)
+2018-06-14 19:22:49.061 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.String(false)
+2018-06-14 19:22:49.062 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.String(false)
+2018-06-14 19:22:49.067 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.067 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:22:49.067 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.067 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:22:49.069 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream.com.happok.live.activitycontrol.controller.PushController.Start.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.069 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream.com.happok.live.activitycontrol.controller.PushController.Start.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.084 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:22:49.097 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:22:49.106 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.106 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:22:49.106 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.107 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:22:49.107 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.Stop.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.107 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.Stop.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.109 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:22:49.110 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:22:49.112 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.112 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:22:49.112 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.112 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:22:49.112 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.getStream.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.113 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.getStream.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.114 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:22:49.115 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:22:49.117 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.117 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:22:49.117 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:22:49.117 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:22:49.117 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/streams.com.happok.live.activitycontrol.controller.PushController.getStreams.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.118 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/streams.com.happok.live.activitycontrol.controller.PushController.getStreams.DefaultGenericTypeNamingStrategy
+2018-06-14 19:22:49.118 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:22:49.119 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:22:49.138 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:22:49.143 [ main ] - [ ERROR ] [ org.apache.catalina.core.StandardService : 182 ] - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.happok.live.activitycontrol.ActivitycontrolApplication.main(ActivitycontrolApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-06-14 19:22:49.147 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Pausing ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:22:49.147 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2018-06-14 19:22:49.161 [ main ] - [ INFO  ] [ org.apache.catalina.util.LifecycleBase : 180 ] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-06-14 19:22:49.161 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Stopping ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:22:49.162 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Destroying ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:24:07.766 [ main ] - [ INFO  ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 50 ] - Starting ActivitycontrolApplication on xiayt with PID 14104 (F:\LiveManger\trunk\activitycontrol\target\classes started by xiayo in F:\LiveManger\trunk\activitycontrol)
+2018-06-14 19:24:07.773 [ main ] - [ DEBUG ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 53 ] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-14 19:24:07.775 [ main ] - [ INFO  ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 659 ] - No active profile set, falling back to default profiles: default
+2018-06-14 19:24:09.205 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:24:09.215 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-06-14 19:24:09.215 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-14 19:24:09.220 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;D:\java_tools\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Users\xiayo\AppData\Local\Microsoft\WindowsApps;;D:\js_tools\Microsoft VS Code\bin;C:\Users\xiayo\AppData\Roaming\npm;.]
+2018-06-14 19:24:09.344 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-06-14 19:24:10.752 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 80 ] - Context refreshed
+2018-06-14 19:24:10.767 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 83 ] - Found {0} custom documentation plugin(s)
+2018-06-14 19:24:10.775 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 53 ] - Scanning for api listing references
+2018-06-14 19:24:10.781 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:24:10.783 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: getStream belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:24:10.784 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:24:10.784 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: Stop belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:24:10.784 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:24:10.784 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: Start belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:24:10.785 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:24:10.785 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: getStreams belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:24:10.789 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 84 ] - Created resource listing Path: /default/直播controller Description: 直播controller Position: 0
+2018-06-14 19:24:10.810 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.String(false)
+2018-06-14 19:24:10.811 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.String(false)
+2018-06-14 19:24:10.817 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.String(false)
+2018-06-14 19:24:10.817 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.String(false)
+2018-06-14 19:24:10.821 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.822 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:24:10.822 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.822 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:24:10.823 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream.com.happok.live.activitycontrol.controller.PushController.Start.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.823 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream.com.happok.live.activitycontrol.controller.PushController.Start.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.837 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:24:10.851 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:24:10.859 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.860 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:24:10.860 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.860 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:24:10.860 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.Stop.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.860 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.Stop.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.863 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:24:10.864 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:24:10.865 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.866 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:24:10.866 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.866 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:24:10.866 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.getStream.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.866 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.getStream.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.868 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:24:10.870 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:24:10.873 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.874 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:24:10.874 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:24:10.874 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:24:10.875 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/streams.com.happok.live.activitycontrol.controller.PushController.getStreams.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.875 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/streams.com.happok.live.activitycontrol.controller.PushController.getStreams.DefaultGenericTypeNamingStrategy
+2018-06-14 19:24:10.876 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:24:10.877 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:24:10.892 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:24:10.898 [ main ] - [ ERROR ] [ org.apache.catalina.core.StandardService : 182 ] - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.happok.live.activitycontrol.ActivitycontrolApplication.main(ActivitycontrolApplication.java:10)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+2018-06-14 19:24:10.902 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Pausing ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:24:10.902 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Stopping service [Tomcat]
+2018-06-14 19:24:10.910 [ main ] - [ INFO  ] [ org.apache.catalina.util.LifecycleBase : 180 ] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-06-14 19:24:10.911 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Stopping ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:24:10.911 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Destroying ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:25:00.955 [ main ] - [ INFO  ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 50 ] - Starting ActivitycontrolApplication on xiayt with PID 3308 (F:\LiveManger\trunk\activitycontrol\target\classes started by xiayo in F:\LiveManger\trunk\activitycontrol)
+2018-06-14 19:25:00.960 [ main ] - [ DEBUG ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 53 ] - Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2018-06-14 19:25:01.003 [ main ] - [ INFO  ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 659 ] - No active profile set, falling back to default profiles: default
+2018-06-14 19:25:02.408 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Initializing ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:25:02.416 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 180 ] - Starting service [Tomcat]
+2018-06-14 19:25:02.417 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 180 ] - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-06-14 19:25:02.421 [ localhost-startStop-1 ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 180 ] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;D:\java_tools\apache-maven-3.5.3\bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Users\xiayo\AppData\Local\Microsoft\WindowsApps;;D:\js_tools\Microsoft VS Code\bin;C:\Users\xiayo\AppData\Roaming\npm;.]
+2018-06-14 19:25:02.535 [ localhost-startStop-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 180 ] - Initializing Spring embedded WebApplicationContext
+2018-06-14 19:25:03.901 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 80 ] - Context refreshed
+2018-06-14 19:25:03.916 [ main ] - [ INFO  ] [ s.d.s.web.plugins.DocumentationPluginsBootstrapper : 83 ] - Found {0} custom documentation plugin(s)
+2018-06-14 19:25:03.924 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 53 ] - Scanning for api listing references
+2018-06-14 19:25:03.928 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:25:03.930 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: getStream belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:25:03.931 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:25:03.931 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: Stop belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:25:03.932 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:25:03.932 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: Start belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:25:03.932 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:25:03.933 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 72 ] - Request mapping: getStreams belongs to groups: [[ResourceGroup{groupName='直播controller', position=0, controller=com.happok.live.activitycontrol.controller.PushController}]] 
+2018-06-14 19:25:03.937 [ main ] - [ INFO  ] [ s.d.spring.web.scanners.ApiListingReferenceScanner : 84 ] - Created resource listing Path: /default/直播controller Description: 直播controller Position: 0
+2018-06-14 19:25:03.958 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.String(false)
+2018-06-14 19:25:03.958 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.String(false)
+2018-06-14 19:25:03.964 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.String(false)
+2018-06-14 19:25:03.964 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.String(false)
+2018-06-14 19:25:03.968 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:03.969 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:25:03.969 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:03.969 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:25:03.970 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream.com.happok.live.activitycontrol.controller.PushController.Start.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:03.970 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream.com.happok.live.activitycontrol.controller.PushController.Start.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:03.984 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:25:03.995 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Start was 直播controller
+2018-06-14 19:25:04.004 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:04.005 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:25:04.005 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:04.005 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:25:04.005 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.Stop.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:04.005 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.Stop.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:04.008 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:25:04.009 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method Stop was 直播controller
+2018-06-14 19:25:04.010 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:04.010 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:25:04.011 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:04.011 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:25:04.011 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.getStream.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:04.011 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/stream/{name}.com.happok.live.activitycontrol.controller.PushController.getStream.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:04.013 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:25:04.014 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStream was 直播controller
+2018-06-14 19:25:04.015 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:04.015 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache models with key java.lang.Object(true)
+2018-06-14 19:25:04.016 [ main ] - [ INFO  ] [ s.documentation.schema.ModelContextKeyGenerator : 46 ] - Cache Key Generated: java.lang.Object(true)
+2018-06-14 19:25:04.016 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 79 ] - Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2018-06-14 19:25:04.016 [ main ] - [ INFO  ] [ s.documentation.spring.web.OperationsKeyGenerator : 51 ] - Cache key generated: /v1/api/streams.com.happok.live.activitycontrol.controller.PushController.getStreams.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:04.016 [ main ] - [ INFO  ] [ s.documentation.spring.web.caching.CachingAspect : 68 ] - Caching aspect applied for cache operations with key /v1/api/streams.com.happok.live.activitycontrol.controller.PushController.getStreams.DefaultGenericTypeNamingStrategy
+2018-06-14 19:25:04.017 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:25:04.018 [ main ] - [ INFO  ] [ s.d.s.web.ClassOrApiAnnotationResourceGrouping : 100 ] - Group for method getStreams was 直播controller
+2018-06-14 19:25:04.033 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 180 ] - Starting ProtocolHandler ["http-nio-8080"]
+2018-06-14 19:25:04.043 [ main ] - [ INFO  ] [ org.apache.tomcat.util.net.NioSelectorPool : 180 ] - Using a shared selector for servlet write/read
+2018-06-14 19:25:04.064 [ main ] - [ INFO  ] [ c.h.l.activitycontrol.ActivitycontrolApplication : 59 ] - Started ActivitycontrolApplication in 3.749 seconds (JVM running for 4.832)

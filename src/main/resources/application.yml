@@ -1,0 +1,22 @@
+
+spring:
+  profiles:
+    active: dev
+
+swagger2:
+ title: "资源中心接口文档"
+ description: "主要负责对资源的管理（音视频资源，图片资源）RESTful API。"
+ version: "1.0"
+ path: "com.happok.live.activitycontrol.controller"
+
+
+srs:
+ protocol: http://
+ prefix: /api/v1/
+
+server:
+  port: 8899
+
+#    schema:
+#      - classpath:sql/department.sql
+#      - classpath:sql/employee.sql
